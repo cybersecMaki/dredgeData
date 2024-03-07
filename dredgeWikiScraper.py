@@ -2,8 +2,6 @@ import pandas as pd
 import requests 
 from bs4 import BeautifulSoup
 
-# We can use BS4 to get the links for these beloved creatures' image and type columns and populate the pandas dataframes. 
-
 fishURL = "https://dredge.fandom.com/wiki/Fish"
 aberrationURL = "https://dredge.fandom.com/wiki/Aberrations"
 
